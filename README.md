@@ -1,5 +1,17 @@
 # Login-API-Service
+
+version '2.4.2'
+
 회사테스트 과제
+##   실행 전 체크 리스트
+
+1. application.yml 파일 중
+hbm2ddl: auto: create로 변경
+2. h2 database 
+- url링크 jdbc:h2:tcp://localhost/~/test 
+- username: sa
+- password: 
+
 
 ## postman을 활용한 REST API 적용 
 
@@ -20,4 +32,4 @@
 
 6. 회원 상세 조회 GET 
 - `http://localhost:8080/v1/user` 
-- Header값을 통한 조회: KEY(X-AUTH-TOKEN) : VALUE(?)
+- Header값을 통한 조회: KEY(X-AUTH-TOKEN) : VALUE(로그인 시 생성되는 jwt)
