@@ -2,7 +2,6 @@
 
 version '2.4.2'
 
-회사테스트 과제
 ##   실행 전 체크 리스트
 
 1. application.yml 파일 중
